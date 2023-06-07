@@ -1,5 +1,6 @@
 {
-  "name": "mimar",
+  "homepage": "https://ShahabAli-1/github.io/datafetch_filter",
+  "name": "datafetch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
