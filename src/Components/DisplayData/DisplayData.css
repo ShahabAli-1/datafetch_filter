@@ -1,0 +1,60 @@
+.search_filter_container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search > input {
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  border: 0.5px solid #22eaaa;
+  transition: 0.2s linear transform;
+}
+.search > input:hover {
+  transform: scale(1.1);
+}
+.filter > select {
+  height: 40px;
+  border-radius: 15px;
+  border: 0.5px solid #22eaaa;
+  transition: 0.2s linear transform;
+}
+.filter > select:hover {
+  transform: scale(1.1);
+}
+.filter > .search:focus {
+  border: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: start;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.pages {
+  border: 1px solid whitesmoke;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: 0.2s linear transform;
+  cursor: pointer;
+  list-style: none;
+}
+.active {
+  border: 1px solid whitesmoke;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  transition: 0.2s linear transform;
+  border: 1px solid darkred;
+  cursor: pointer;
+  list-style: none;
+}
+.active:hover {
+  transition: scale(1.2);
+}
+.pages:hover {
+  transform: scale(1.2);
+}
